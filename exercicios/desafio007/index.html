@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Imagens flexiveis</title>
+</head>
+<body>
+    <h1>Imagens Flexiveis</h1>
+    <p>diminua e aumente a tela do computador ou celular para ver a diferença</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/barcos-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="Imagens/barcos-m.jpg" type="image/jpg">
+        <img src="Imagens/barcos-g.jpg" alt="Imagem flexivel">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+    em HTML É ID d
+*/
+body {
+    background-color: #94edf5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #224447;
+}
+
+#principal {
+    text-align: center;
+    color: #2a4e52;
+}
+
+h2 {
+    color: #295b5f;
+}
+
+.basico {
+    color: #197177;
+}
+
+.intermediario{
+    color: #635d0c;
+}
+
+.avancado {
+    color: #af1d1d;
+}
